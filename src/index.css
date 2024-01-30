@@ -1,0 +1,83 @@
+/* App.css (or any other global styles) */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Square.css */
+.square {
+  margin-bottom: 10px;
+  font-size: 30px;
+  background-color: #f0b0b0e7;
+  border-radius: 5px;
+  border-color: white;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.square:hover {
+  background-color: #d7000096;
+}
+
+.square.clicked {
+  margin: 10px;
+}
+
+/* Board.css */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+}
+
+
+h4{
+  text-align: center;
+  color: #d7000096;
+}
+
+h1{
+  color: #d7000096;
+  text-align: center;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.reset{
+  font-family: 'Roboto';
+  background-color: transparent;
+  color: #e96e6e;
+  border-radius: 5px;
+  border: 2px solid #e96e6e;
+  font-size: 20px;
+  text-shadow: 0.5px 0.5px 0 rgba(223, 35, 186, 0.223);
+  cursor: pointer;
+}
+
+.reset:hover{
+  color: #fff;
+  background-color: #e96e6e;
+}
+
+.petal {
+  position: absolute;
+  height: 0;
+  z-index: 0;
+  overflow: hidden;
+}
