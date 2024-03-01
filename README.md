@@ -1,4 +1,4 @@
-# Tictactoe
+# Blossom Tictactoe
 A cute tictactoe to play on your computor or phone. 
 
 ## Stack 
