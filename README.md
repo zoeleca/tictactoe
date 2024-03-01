@@ -1,5 +1,9 @@
 # Blossom Tictactoe
 A cute tictactoe to play on your computor or phone. 
+<br>
+<br>
+![tictactoe](https://github.com/zoeleca/tictactoe/assets/146814463/ae861739-c795-440c-9b2e-7d26493d7e35)
+
 
 ## Stack 
 React Javascript & CSS
