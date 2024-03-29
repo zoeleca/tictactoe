@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import PetalAnimation from './PetalAnimation';
+import PetalAnimation from './components/PetalAnimation';
 
 //function square = btn 
 function Square ({value, onSquareClick}){
