@@ -13,7 +13,7 @@ const PetalAnimation = () => {
     let petalArray = [];
 
     const petalImg = new Image();
-    petalImg.src = './petal.png';
+    petalImg.src = './src/assets/petal.png';
     petalImg.addEventListener('load', () => {
       generatePetals();
       animate();
