@@ -84,10 +84,10 @@ const PetalAnimation = () => {
     }
 
     //css
-    canvas.style.position = 'fixed';
+    canvas.style.position = 'absolute';
     canvas.style.top = '0';
     canvas.style.left = '0';
-    canvas.style.zIndex = '-32'; //
+    canvas.style.zIndex = '-1'; //
 
     // Cleanup function
     return () => {

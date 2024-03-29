@@ -39,10 +39,10 @@ const winner = calculateWinner(squares);
 let wonPlayer;
 let status;
 if (winner){
-  wonPlayer = "Winner : " + winner;
+  wonPlayer = "Winner : player " + winner;
   PetalAnimation;
 }else{
-  status = "Next player : " + (xisNext ? "X" : "O");
+  status = "Next player : player" + (xisNext ? "X" : "O");
 }
 
   return (
