@@ -24,7 +24,7 @@ const PetalAnimation = () => {
       for (let i = 0; i < TOTAL; i++) {
         petalArray.push(new Petal());
       }
-      console.log("test");
+      console.warn("the 'Petal Animation' is not launching");
     }
 
     function animate() {
