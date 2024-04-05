@@ -24,7 +24,7 @@ const PetalAnimation = () => {
       for (let i = 0; i < TOTAL; i++) {
         petalArray.push(new Petal());
       }
-      console.log('test')
+      console.log("test");
     }
 
     function animate() {
@@ -32,7 +32,7 @@ const PetalAnimation = () => {
       petalArray.forEach((petal) => petal.animate());
       requestAnimationFrame(animate);
     }
-    
+
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
