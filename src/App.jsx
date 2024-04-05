@@ -3,7 +3,6 @@ import PetalAnimation from "./components/Animation/PetalAnimation";
 import Tictactoe from "./components/Game/Tictactoe";
 
 const App = () => {
-
   return (
     <div>
       <PetalAnimation />

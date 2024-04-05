@@ -10,9 +10,8 @@ import {
   getCurrentPlayer,
   switchCurrentPlayer,
   winnerPlayer,
-  getStatus
+  getStatus,
 } from "./game";
-
 
 const Tictactoe = () => {
   const [playerWon, setPlayerWon] = useState(null);
