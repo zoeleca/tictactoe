@@ -11,11 +11,12 @@ function Square({ value, onSquareClick }) {
 }
 
 export default function Board() {
+  const [playerWon, setPlayerWon] = useState()
   //reset btn
   const reset = () => {
     setSquares(Array(9).fill(null));
     setIsNext(true);
-    setplayerwon(null);
+    setPlayerWon(null);
   };
 
   const [xisNext, setIsNext] = useState(true);
