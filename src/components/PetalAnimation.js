@@ -24,15 +24,15 @@ const PetalAnimation = () => {
       for (let i = 0; i < TOTAL; i++) {
         petalArray.push(new Petal());
       }
+      console.log('test')
     }
 
     function animate() {
-      console.log('The animation has started')
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       petalArray.forEach((petal) => petal.animate());
       requestAnimationFrame(animate);
     }
-
+    
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
